@@ -1,0 +1,10 @@
+name: "Zappy Controller"
+description: "Controller for Zappy Protocol Devices"
+version: "1.0.2"
+slug: "zappy_controller"
+init: false
+uart: true
+services:
+  - "mqtt:need"
+arch:
+  - aarch64
