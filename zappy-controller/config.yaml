@@ -1,6 +1,6 @@
 name: "Zappy Controller"
 description: "Controller for Zappy Protocol Devices"
-version: "1.0.2"
+version: "1.0.3"
 slug: "zappy_controller"
 init: false
 uart: true
