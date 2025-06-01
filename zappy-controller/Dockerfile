@@ -11,7 +11,7 @@ RUN \
   && rm go1.22.0.linux-arm64.tar.gz
 
 # Add controller binary
-RUN /usr/local/go/bin/go install github.com/netleapio/zappy-controller@v0.1.2
+RUN /usr/local/go/bin/go install github.com/netleapio/zappy-controller@v0.1.3
 
 # Copy wrapper script
 COPY run.sh /
